@@ -1,6 +1,7 @@
 def roll_call_dwarves(x)
+  y = []
   x.each.with_index do |name, index|
-    puts "#{index} #{name}"
+     "#{index} #{name}"
  
 end
 
