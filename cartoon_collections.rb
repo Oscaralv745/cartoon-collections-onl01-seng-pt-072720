@@ -1,4 +1,4 @@
-def roll_call_dwarves(collection)
+def roll_call_dwarves(array)
   new_dwarves = []
   
 end
