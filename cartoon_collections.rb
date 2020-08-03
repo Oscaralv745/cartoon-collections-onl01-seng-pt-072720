@@ -3,6 +3,7 @@ def roll_call_dwarves(array)
   new_dwarves = []
   while i < array.length 
   new_dwarves << yield(array[i])
+  i += 1 
   
   
 end
