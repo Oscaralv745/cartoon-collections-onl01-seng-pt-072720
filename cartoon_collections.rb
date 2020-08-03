@@ -1,5 +1,5 @@
 def roll_call_dwarves(x)
-  x.each
+  x.each.with_index do 
  
 end
 
