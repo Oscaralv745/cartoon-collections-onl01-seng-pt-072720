@@ -3,7 +3,7 @@ def roll_call_dwarves(x)
   x.each.with_index(1) do |name, index|
     x.push("#{index} #{name}")
   end
-   "#{y (" ")"
+   "#{y.join (" ")"
 end
 
 def summon_captain_planet# code an argument here
