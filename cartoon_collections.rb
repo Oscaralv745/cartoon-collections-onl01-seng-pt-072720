@@ -21,7 +21,8 @@ def long_planeteer_calls(array)
   i = 0 
   long_words = []
   while i < array.length 
-    long_words << yield
+    long_words << yield(array[i])
+    
 end
 
 def find_the_cheese# code an argument here
