@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
     new_dwarves << yield(array[i])
     i += 1 
   end
-  
+  new_dwarves
 end
 
 def summon_captain_planet# code an argument here
