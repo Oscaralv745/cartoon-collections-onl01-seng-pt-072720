@@ -1,5 +1,6 @@
 def roll_call_dwarves(collection)
-  collection
+  new_dwarves = []
+  
 end
 
 def summon_captain_planet# code an argument here
