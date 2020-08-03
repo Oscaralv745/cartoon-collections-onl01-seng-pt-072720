@@ -1,4 +1,5 @@
-def roll_call_dwarves(dwarves)
+def roll_call_dwarves(x)
+  x.each
  
 end
 
