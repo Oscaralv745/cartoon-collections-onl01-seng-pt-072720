@@ -12,7 +12,7 @@ def summon_captain_planet(array)
   collection = []
   while i < array.length 
   collection << yield(array[i])
-  i
+  i += 1 
 end
 
 def long_planeteer_calls# code an argument here
